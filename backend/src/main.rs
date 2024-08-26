@@ -10,3 +10,8 @@ async fn main() {
         .run(([127, 0, 0, 1], 3030))
         .await;
 }
+
+// https://www.weatherapi.com/docs/
+// weather API: http://api.weatherapi.com/v1
+// dotenv().ok(); pour l'API_KEY
+// let api_key = env::var("API_KEY").expect("API_KEY not set");
